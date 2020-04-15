@@ -1,0 +1,20 @@
+#center{
+
+	
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	margin: 250px 600px;
+	font: 100px;
+}
+
+#bg{
+
+	background-image: url("canadaflag.png");
+}
+
+#num{
+
+	font-size:20px;
+}

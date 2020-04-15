@@ -1,0 +1,25 @@
+
+//alert("fghf")
+
+var num = document.getElementById('num')
+
+var count = Number(num.innerHTML)
+// var backimage = document.getElementById('bg')
+
+var img= window.getComputedStyle(backimage).background
+
+function addcount(){
+
+count=count + 1
+num.innerHTML=count
+ if(count==11){count=0}
+ console.log(count)
+
+num.style.fontSize = count*10+"px"
+ 
+
+}
+setInterval(addcount,1000)
+
+
+
